@@ -1,0 +1,174 @@
+{
+  "J1": {
+    "A1": "GND",
+    "A4": "USB_5V",
+    "A5": "USB_CC1",
+    "A6": "USB_DP",
+    "A7": "USB_DM",
+    "A9": "USB_5V",
+    "A12": "GND",
+    "B1": "GND",
+    "B4": "USB_5V",
+    "B5": "USB_CC2",
+    "B6": "USB_DP",
+    "B7": "USB_DM",
+    "B9": "USB_5V",
+    "B12": "GND"
+  },
+  "U1": {
+    "2": "BAT_PROTECTED",
+    "3": "BAT_PROTECTED",
+    "4": "GND",
+    "5": "GND",
+    "6": "GND",
+    "8": "GND",
+    "10": "SYS_CHARGER",
+    "11": "SYS_CHARGER",
+    "12": "CHG_ILIM",
+    "13": "USB_5V",
+    "16": "CHG_ISET",
+    "17": "GND"
+  },
+  "U2": {
+    "A22": "3V3_TBD",
+    "AA24": "SWDCLK",
+    "AC9": "FLASH_MISO",
+    "AC11": "FLASH_SCK",
+    "AC13": "MCU_RESET",
+    "AC24": "SWDIO",
+    "AD2": "USB_5V",
+    "AD4": "USB_DM",
+    "AD6": "USB_DP",
+    "AD8": "FLASH_CS",
+    "AD10": "FLASH_MOSI",
+    "AD14": "3V3_TBD",
+    "AD23": "3V3_TBD",
+    "B1": "3V3_TBD",
+    "B7": "GND",
+    "EP": "GND",
+    "F23": "GND",
+    "G1": "GNSS_RX",
+    "H2": "GNSS_TX",
+    "H23": "BLE_RF_REVIEW",
+    "L1": "MCU_MODEM_TX",
+    "N1": "MCU_MODEM_RX",
+    "W1": "3V3_TBD"
+  },
+  "U3": {
+    "3": "GND",
+    "29": "MODEM_1V8",
+    "31": "GND",
+    "32": "MODEM_VBAT_TBD",
+    "33": "MODEM_VBAT_TBD",
+    "34": "MODEM_RX_1V8",
+    "35": "MODEM_TX_1V8",
+    "43": "SIM_VDD",
+    "44": "SIM_RST",
+    "45": "SIM_DATA",
+    "46": "SIM_CLK",
+    "47": "GND",
+    "48": "GND",
+    "50": "GND",
+    "52": "MODEM_VBAT_TBD",
+    "53": "MODEM_VBAT_TBD",
+    "54": "GND",
+    "55": "GND",
+    "58": "GND",
+    "59": "GND",
+    "60": "LTE_RF_REVIEW",
+    "61": "GND",
+    "62": "GND",
+    "67": "GND",
+    "68": "GND",
+    "69": "GND",
+    "70": "GND",
+    "71": "GND",
+    "72": "GND",
+    "73": "GND",
+    "74": "GND",
+    "79": "GND",
+    "80": "GND",
+    "81": "GND",
+    "82": "GND",
+    "89": "GND",
+    "90": "GND",
+    "91": "GND",
+    "100": "GND",
+    "101": "GND",
+    "102": "GND"
+  },
+  "U4": {
+    "1": "GND",
+    "2": "GNSS_RX",
+    "3": "GNSS_TX",
+    "6": "GNSS_BACKUP_TBD",
+    "7": "3V3_TBD",
+    "8": "3V3_TBD",
+    "10": "GND",
+    "11": "GNSS_RF_REVIEW",
+    "12": "GND"
+  },
+  "U5": {
+    "1": "FLASH_CS",
+    "2": "FLASH_MISO",
+    "4": "GND",
+    "5": "FLASH_MOSI",
+    "6": "FLASH_SCK",
+    "8": "3V3_TBD"
+  },
+  "U6": {
+    "1": "MCU_MODEM_RX",
+    "2": "GND",
+    "3": "MODEM_1V8",
+    "4": "MODEM_TX_1V8",
+    "5": "MODEM_RX_1V8",
+    "6": "UART_OE_TBD",
+    "7": "3V3_TBD",
+    "8": "MCU_MODEM_TX"
+  },
+  "R1": {
+    "1": "USB_CC1",
+    "2": "GND"
+  },
+  "R2": {
+    "1": "USB_CC2",
+    "2": "GND"
+  },
+  "R3": {
+    "1": "CHG_ISET",
+    "2": "GND"
+  },
+  "R4": {
+    "1": "CHG_ILIM",
+    "2": "GND"
+  },
+  "C1": {
+    "1": "USB_5V",
+    "2": "GND"
+  },
+  "C2": {
+    "1": "SYS_CHARGER",
+    "2": "GND"
+  },
+  "C3": {
+    "1": "3V3_TBD",
+    "2": "GND"
+  },
+  "C4": {
+    "1": "3V3_TBD",
+    "2": "GND"
+  },
+  "J2": {
+    "1": "BAT_PROTECTED",
+    "2": "GND"
+  },
+  "J3": {
+    "1": "3V3_TBD",
+    "2": "SWDIO",
+    "3": "GND",
+    "4": "SWDCLK",
+    "5": "GND",
+    "9": "GND",
+    "10": "MCU_RESET"
+  }
+}

@@ -1,0 +1,18 @@
+Reference,Value,Footprint,Status
+J1,USB_C_Receptacle_USB2.0_16P,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,DRAFT: verify datasheet and assembly
+U1,BQ24074RGT,Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm,DRAFT: verify datasheet and assembly
+U2,nRF52840,Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm,DRAFT: verify datasheet and assembly
+U3,BG95-M3,RF_GSM:Quectel_BG95,DRAFT: verify datasheet and assembly
+U4,MAX-M10S,RF_GPS:ublox_MAX,DRAFT: verify datasheet and assembly
+U5,W25Q32JVSS,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,DRAFT: verify datasheet and assembly
+U6,TXS0102DCT,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,DRAFT: verify datasheet and assembly
+R1,5.1k,Resistor_SMD:R_0603_1608Metric,DRAFT: verify datasheet and assembly
+R2,5.1k,Resistor_SMD:R_0603_1608Metric,DRAFT: verify datasheet and assembly
+R3,ISET_TBD,Resistor_SMD:R_0603_1608Metric,DRAFT: verify datasheet and assembly
+R4,ILIM_TBD,Resistor_SMD:R_0603_1608Metric,DRAFT: verify datasheet and assembly
+C1,4.7uF,Capacitor_SMD:C_0603_1608Metric,DRAFT: verify datasheet and assembly
+C2,4.7uF,Capacitor_SMD:C_0603_1608Metric,DRAFT: verify datasheet and assembly
+C3,100nF,Capacitor_SMD:C_0603_1608Metric,DRAFT: verify datasheet and assembly
+C4,100nF,Capacitor_SMD:C_0603_1608Metric,DRAFT: verify datasheet and assembly
+J2,PROTECTED_LIPO,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,DRAFT: verify datasheet and assembly
+J3,SWD_REVIEW,Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical,DRAFT: verify datasheet and assembly

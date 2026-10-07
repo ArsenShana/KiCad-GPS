@@ -1,0 +1,87 @@
+[
+  {
+    "ref": "J1",
+    "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "value": "USB_C_Receptacle_USB2.0_16P"
+  },
+  {
+    "ref": "U1",
+    "footprint": "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm",
+    "value": "BQ24074RGT"
+  },
+  {
+    "ref": "U2",
+    "footprint": "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm",
+    "value": "nRF52840"
+  },
+  {
+    "ref": "U3",
+    "footprint": "RF_GSM:Quectel_BG95",
+    "value": "BG95-M3"
+  },
+  {
+    "ref": "U4",
+    "footprint": "RF_GPS:ublox_MAX",
+    "value": "MAX-M10S"
+  },
+  {
+    "ref": "U5",
+    "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+    "value": "W25Q32JVSS"
+  },
+  {
+    "ref": "U6",
+    "footprint": "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm",
+    "value": "TXS0102DCT"
+  },
+  {
+    "ref": "R1",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "value": "5.1k"
+  },
+  {
+    "ref": "R2",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "value": "5.1k"
+  },
+  {
+    "ref": "R3",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "value": "ISET_TBD"
+  },
+  {
+    "ref": "R4",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "value": "ILIM_TBD"
+  },
+  {
+    "ref": "C1",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "value": "4.7uF"
+  },
+  {
+    "ref": "C2",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "value": "4.7uF"
+  },
+  {
+    "ref": "C3",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "value": "100nF"
+  },
+  {
+    "ref": "C4",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "value": "100nF"
+  },
+  {
+    "ref": "J2",
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "value": "PROTECTED_LIPO"
+  },
+  {
+    "ref": "J3",
+    "footprint": "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical",
+    "value": "SWD_REVIEW"
+  }
+]

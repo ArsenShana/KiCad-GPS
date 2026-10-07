@@ -1,0 +1,2287 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-07T19:08:32",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/8af081fe-8cbe-4371-9c69-ba5770625765",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Вывод SH [SHIELD, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.7874
+                            },
+                            "uuid": "0e13b2a4-1f8d-4948-9476-e6ea7c1394ee"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Вывод A8 [SBU1, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 0.6096,
+                                "y": 0.6858
+                            },
+                            "uuid": "165b0592-003c-4acd-b030-26c70ec525c8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Вывод B8 [SBU2, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 0.6096,
+                                "y": 0.7112
+                            },
+                            "uuid": "5d00a9cf-667e-4c48-a1be-b6bbfe9d349c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B24 [XC1, Вход, Линия]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.6256
+                            },
+                            "uuid": "0a991073-0712-4ad5-8776-50af3e33d256"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B24 [XC1, Вход, Линия]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.6256
+                            },
+                            "uuid": "0a991073-0712-4ad5-8776-50af3e33d256"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A23 [XC2, Вход, Линия]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.7272
+                            },
+                            "uuid": "3349e1db-1cf9-44ba-be87-f1c0162bda57"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A23 [XC2, Вход, Линия]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.7272
+                            },
+                            "uuid": "3349e1db-1cf9-44ba-be87-f1c0162bda57"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод C1 [DEC1, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 0.9652
+                            },
+                            "uuid": "569ca061-4f75-43fc-91b7-7b1b1bc72520"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A18 [DEC2, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.8636,
+                                "y": 0.9652
+                            },
+                            "uuid": "c923aaa7-5c90-4adc-ba0d-21c05b28769a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод D23 [DEC3, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.9652
+                            },
+                            "uuid": "fd0a08c8-b8c7-4648-984f-cb6188881237"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B5 [DEC4, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9652
+                            },
+                            "uuid": "3f6bffa7-4a6d-4a33-9116-a1ffec1911b1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод N24 [DEC5, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 0.9652
+                            },
+                            "uuid": "46fcc65f-861d-4030-bd5f-6a4cafc5b07c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод E24 [DEC6, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 0.9652
+                            },
+                            "uuid": "34b916cf-2c51-48e8-bb63-67a9538358fa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 15 [ITERM, Вход, Линия]",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.4826
+                            },
+                            "uuid": "19ddc775-97a1-425f-9bcf-26153409ba6d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 15 [ITERM, Вход, Линия]",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.4826
+                            },
+                            "uuid": "19ddc775-97a1-425f-9bcf-26153409ba6d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 14 [TMR, Вход, Линия]",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.5588
+                            },
+                            "uuid": "31643d06-c57b-4fcf-a056-7cd78f30354c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 14 [TMR, Вход, Линия]",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.5588
+                            },
+                            "uuid": "31643d06-c57b-4fcf-a056-7cd78f30354c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AC5 [DECUSB, Пассивный, Линия]",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.9652
+                            },
+                            "uuid": "4159c124-121e-4e97-b70e-8ad65d71494f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B1 [VDD, Вход питания, Линия]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 0.9652
+                            },
+                            "uuid": "45713fa9-f870-45e6-80b4-1b6c4ef61e85"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод Y2 [VDDH, Вход питания, Линия]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9652
+                            },
+                            "uuid": "058e34d0-d4ce-4994-976f-b0f55635e3f7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод Y2 [VDDH, Вход питания, Линия]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9652
+                            },
+                            "uuid": "058e34d0-d4ce-4994-976f-b0f55635e3f7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 13 [IN, Вход питания, Линия]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.4318
+                            },
+                            "uuid": "c3b59732-0a4a-4df5-83c3-c0db5a90d10e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 8 [VSS, Вход питания, Линия]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.7366
+                            },
+                            "uuid": "5c153af6-f556-406c-8a85-888fbe8e43f1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B3 [DCC, Выход питания, Линия]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.9652
+                            },
+                            "uuid": "a110bf86-e381-4818-ae8f-070afb40b717"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AB2 [DCCH, Выход питания, Линия]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9652
+                            },
+                            "uuid": "e697f9f5-d19e-45b0-86fe-72685368e2d6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 1 [TS, Пассивный, Линия]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.6096
+                            },
+                            "uuid": "ab11ab50-cc37-4e1b-b9bf-a2e7ab7436c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 7 [~{PGOOD}, Открытый коллектор, Линия]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.6604
+                            },
+                            "uuid": "03a39074-e117-4ba3-9347-65f39e05307a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Вывод 9 [~{CHG}, Открытый коллектор, Линия]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.6858
+                            },
+                            "uuid": "0915cbb4-3399-4241-951f-00732b03a0c6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод D2 [XL1/P0.00, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.0414
+                            },
+                            "uuid": "ab1b7a58-f78f-4f62-88bd-20ccf140e8bc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод F2 [XL2/P0.01, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.0668
+                            },
+                            "uuid": "7d4e547f-ad2a-4f55-8bcb-18991755212d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A12 [AIN0/P0.02, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.0922
+                            },
+                            "uuid": "99cb5448-6925-421e-9f30-6f75c905aaae"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B13 [AIN1/P0.03, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.1176
+                            },
+                            "uuid": "1934d2f3-f534-402c-965c-36e1008a93c3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод J1 [AIN2/P0.04, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.143
+                            },
+                            "uuid": "e8357d4b-750e-4b8e-b8b7-cba9ecd269a9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод K2 [AIN3/P0.05, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.1684
+                            },
+                            "uuid": "085a6807-1b6f-45a2-ba26-53491026ec1d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод M2 [TRACECLK/P0.07, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.2192
+                            },
+                            "uuid": "a9aa8c3e-e99c-42d4-8f23-2ee2e93f0dc0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод L24 [NFC1/P0.09, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.27
+                            },
+                            "uuid": "a78f37f3-3c9e-4f4d-aa30-c389fe0d17f6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод J24 [NFC2/P0.10, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.2954
+                            },
+                            "uuid": "0e3203b6-0890-4052-92ef-f25cfe64819f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод T2 [TRACEDATA2/P0.11, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.3208
+                            },
+                            "uuid": "40f8e78b-a5c3-4cd3-8044-a9545153a3ba"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод U1 [TRACEDATA1/P0.12, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.3462
+                            },
+                            "uuid": "0d7052a1-a4a4-4c51-b6f0-71b0abb7d4d4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AD12 [P0.17, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.4732
+                            },
+                            "uuid": "ec52d849-223f-4fa9-9863-921ef62fd988"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AC15 [P0.19, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.4986
+                            },
+                            "uuid": "49b269a3-7da1-4220-b0e2-688cf20f72ec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AD16 [P0.20, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.524
+                            },
+                            "uuid": "d11d1461-97ed-4182-82d2-3f45c75b78e3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AC17 [P0.21, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.5494
+                            },
+                            "uuid": "2f18a2ef-0679-4dc1-8f02-7acc28d6e0b4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AD18 [P0.22, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.5748
+                            },
+                            "uuid": "6f4f2b54-9bcc-459c-88de-4d59062cda2a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AC19 [P0.23, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6002
+                            },
+                            "uuid": "a6d58ebe-adfa-45ee-bb9c-f1904d2ee782"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AD20 [P0.24, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6256
+                            },
+                            "uuid": "638abbad-59c7-496f-bd6b-d71b54869cc3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AC21 [P0.25, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.651
+                            },
+                            "uuid": "2a3713ed-c6ea-4fc7-a534-efcd55cc4ae2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B11 [AIN4/P0.28, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.7272
+                            },
+                            "uuid": "989c6906-36af-40f2-a7d0-4baba7f1f506"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A10 [AIN5/P0.29, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.7526
+                            },
+                            "uuid": "f3cee900-83d2-4050-93c0-78c7528eb05f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B9 [AIN6/P0.30, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.778
+                            },
+                            "uuid": "3487dcd2-bae5-43ba-82d8-02e14648cf70"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A8 [AIN7/P0.31, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.8034
+                            },
+                            "uuid": "515a9aa7-5dca-42cc-895f-0dde8d45c8d7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод AD22 [TRACEDATA0/P1.00, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.8542
+                            },
+                            "uuid": "fe3bc9ed-91c3-4434-9010-360daa965899"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод Y23 [P1.01, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.8796
+                            },
+                            "uuid": "309368a0-ded5-48a6-8194-b6070f136e6e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод W24 [P1.02, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.905
+                            },
+                            "uuid": "9d4aed84-2ef4-4fe0-b129-f2943f8fde08"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод V23 [P1.03, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.9304
+                            },
+                            "uuid": "7cc07477-fcbc-4446-ae15-cce3a6f23147"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод U24 [P1.04, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.9558
+                            },
+                            "uuid": "f06c10d2-d954-49fd-9cb5-91213f95cd80"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод T23 [P1.05, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.9812
+                            },
+                            "uuid": "1d5d4785-1cbc-4562-8c43-e2a501dbf222"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод R24 [P1.06, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.0066
+                            },
+                            "uuid": "9e9ca474-5257-4364-b11b-a7f7b0acdb21"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод P23 [P1.07, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.032
+                            },
+                            "uuid": "fb75dd85-9a2e-43fc-8be0-16cba1e16744"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод P2 [P1.08, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.0574
+                            },
+                            "uuid": "47a09aa4-3a08-4165-9c35-d3f79fdecb49"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод R1 [TRACEDATA3/P1.09, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.0828
+                            },
+                            "uuid": "47faeace-1ff3-43f8-a8b1-24e26222e86b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A20 [P1.10, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.1082
+                            },
+                            "uuid": "e5bf0fd3-6531-41ca-8eed-e58d762d4df0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B19 [P1.11, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.1336
+                            },
+                            "uuid": "5f178e3e-f2db-463b-a4d3-4a8281a5cf7f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B17 [P1.12, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.159
+                            },
+                            "uuid": "5b1d86de-abd8-4b63-94e2-2277cc85aebe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A16 [P1.13, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.1844
+                            },
+                            "uuid": "d39023f3-18ac-44c4-8aa1-477f74bb1f00"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод B15 [P1.14, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.2098
+                            },
+                            "uuid": "ad64f70d-bb35-449c-9ed0-665800eb7b67"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Вывод A14 [P1.15, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.2352
+                            },
+                            "uuid": "ee69cfad-337c-4512-8d7f-3e06b77d0176"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 16 [SDA, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.5842
+                            },
+                            "uuid": "1995e03d-c899-4acf-bb7c-4ad8c6179de9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 17 [SCL, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.6096
+                            },
+                            "uuid": "633c68cc-7ee1-4b85-85e2-78e302b18070"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 17 [SCL, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.6096
+                            },
+                            "uuid": "633c68cc-7ee1-4b85-85e2-78e302b18070"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 5 [EXTINT, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.6604
+                            },
+                            "uuid": "3d5b63ad-336a-4035-b91d-d50c65cb7ba8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 5 [EXTINT, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.6604
+                            },
+                            "uuid": "3d5b63ad-336a-4035-b91d-d50c65cb7ba8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 18 [~{SAFEBOOT}, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.6858
+                            },
+                            "uuid": "b0078200-b44e-459d-a71c-7c128e3e5a4a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 18 [~{SAFEBOOT}, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.6858
+                            },
+                            "uuid": "b0078200-b44e-459d-a71c-7c128e3e5a4a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 9 [~{RESET}, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.7112
+                            },
+                            "uuid": "3fceff9e-2069-410c-9ebc-71f4e6d2c5ff"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 9 [~{RESET}, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.7112
+                            },
+                            "uuid": "3fceff9e-2069-410c-9ebc-71f4e6d2c5ff"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 15 [VIO_SEL, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.7366
+                            },
+                            "uuid": "deda6d8e-2c39-430b-ad8f-30f219a9aa02"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 15 [VIO_SEL, Вход, Линия]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.7366
+                            },
+                            "uuid": "deda6d8e-2c39-430b-ad8f-30f219a9aa02"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Вывод 3 [~{WP}/IO_{2}, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 1.1938
+                            },
+                            "uuid": "e976fc3d-a90e-478f-b631-516e646e6850"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Вывод 7 [~{HOLD}/~{RESET}/IO_{3}, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 1.2192
+                            },
+                            "uuid": "e45dca0e-852e-4269-a37a-4a9a97e4c60a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Вывод 6 [OE, Вход, Линия]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 1.6002
+                            },
+                            "uuid": "84e566d9-a90f-4403-a010-ed2f4351b52b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J3 Вывод 7 [Pin_7, Пассивный, Линия]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 2.0828
+                            },
+                            "uuid": "b8e981e9-a34c-4abf-ac60-868230a19fb2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 6 [V_BCKP, Вход питания, Линия]",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.4318
+                            },
+                            "uuid": "1f0e261e-6aa0-491c-ab77-bf5c889fa7bd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 14 [VCC_RF, Выход питания, Линия]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.4318
+                            },
+                            "uuid": "e5de3829-3821-4603-8039-83d632310f19"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J3 Вывод 6 [Pin_6, Пассивный, Линия]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.0574
+                            },
+                            "uuid": "07262aac-3fbc-436f-ba1e-66425adc440e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J3 Вывод 8 [Pin_8, Пассивный, Линия]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 2.0828
+                            },
+                            "uuid": "ae250709-2c4a-4877-b73f-388886580a89"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 13 [LNA_EN, Выход, Линия]",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.5588
+                            },
+                            "uuid": "3e063671-e6b1-43da-a43c-f40a945ec4be"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 11 [RF_IN, Вход, Линия]",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.6096
+                            },
+                            "uuid": "b4e3ed4d-fc0b-4598-9209-a333ea1728e5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Вывод 4 [TIMEPULSE, Выход, Линия]",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.6858
+                            },
+                            "uuid": "b55ee1ed-2dc3-4ed7-8c0a-7f8ab2c29181"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 17 [~{RESET}, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.635
+                            },
+                            "uuid": "0ec8d0bf-20e9-425b-a175-fdd88a329032"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 17 [~{RESET}, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.635
+                            },
+                            "uuid": "0ec8d0bf-20e9-425b-a175-fdd88a329032"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 15 [PWRKEY, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.6604
+                            },
+                            "uuid": "6ad3f4b1-ac57-4de2-956f-8baabc0f388e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 75 [USB_BOOT, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.7366
+                            },
+                            "uuid": "802ddd98-ce08-47ad-8f6a-87d9a322ea87"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 75 [USB_BOOT, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.7366
+                            },
+                            "uuid": "802ddd98-ce08-47ad-8f6a-87d9a322ea87"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 30 [MAIN_DTR, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.7874
+                            },
+                            "uuid": "ab0bfea7-aa48-4103-9075-d5d61e05e24a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 30 [MAIN_DTR, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.7874
+                            },
+                            "uuid": "ab0bfea7-aa48-4103-9075-d5d61e05e24a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 36 [MAIN_CTS, Выход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.8636
+                            },
+                            "uuid": "69602475-37ca-4049-9a47-e60aa20ba24d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 37 [MAIN_RTS, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.889
+                            },
+                            "uuid": "d77d5687-e668-40d5-b923-f2fa31a9a7a5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 37 [MAIN_RTS, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.889
+                            },
+                            "uuid": "d77d5687-e668-40d5-b923-f2fa31a9a7a5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 38 [MAIN_DCD, Выход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.9144
+                            },
+                            "uuid": "6751f8a0-2777-4dcc-874c-cd92a8cc54bd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 39 [MAIN_RI, Выход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.9398
+                            },
+                            "uuid": "edf3ea83-3c4f-4481-bfd7-1815414c3fde"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 9 [USB_DP, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.9906
+                            },
+                            "uuid": "00ccfe65-315b-4b27-a4a4-90c4edf8f680"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 10 [USB_DM, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.016
+                            },
+                            "uuid": "7aec3505-fd75-49c5-9d4c-e5ae190bfe3d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 96 [PON_TRIG, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.4224
+                            },
+                            "uuid": "39e10ab0-ffd1-458a-b9e8-0cde00a009de"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 96 [PON_TRIG, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.4224
+                            },
+                            "uuid": "39e10ab0-ffd1-458a-b9e8-0cde00a009de"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 1 [PSM_IND, Выход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.4732
+                            },
+                            "uuid": "4d5aa818-e5b0-4183-9312-6123b39f1e17"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 20 [STATUS, Выход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.4986
+                            },
+                            "uuid": "ea9c8df1-9962-4743-b131-06baf9eb99da"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 21 [NET_STATUS, Выход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.524
+                            },
+                            "uuid": "cb0dcb23-4210-4660-8ec4-6ed58e78f773"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 24 [ADC0, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.5748
+                            },
+                            "uuid": "0486c44d-44ba-49cf-bc1f-70d920dd2168"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 24 [ADC0, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.5748
+                            },
+                            "uuid": "0486c44d-44ba-49cf-bc1f-70d920dd2168"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 2 [ADC1, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.6002
+                            },
+                            "uuid": "d73f22e1-733b-4d8e-a2ad-558477d8758e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 2 [ADC1, Вход, Линия]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 1.6002
+                            },
+                            "uuid": "d73f22e1-733b-4d8e-a2ad-558477d8758e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 32 [VBAT_BB, Вход питания, Линия]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 0.5842
+                            },
+                            "uuid": "c2517fc3-b146-40c5-8622-90e4413ae974"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 8 [VBUS, Вход питания, Линия]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 0.5842
+                            },
+                            "uuid": "02662894-f81e-48c3-bb6c-493659dc4234"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 8 [VBUS, Вход питания, Линия]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 0.5842
+                            },
+                            "uuid": "02662894-f81e-48c3-bb6c-493659dc4234"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 49 [ANT_GNSS, Пассивный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 0.635
+                            },
+                            "uuid": "a37edaa1-8d98-4e4b-b5c0-4895f542fdf6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 84 [GRFC2, Выход, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 0.8128
+                            },
+                            "uuid": "0280124e-a091-4204-845d-06cf44b3230b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 83 [GRFC1, Выход, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 0.8382
+                            },
+                            "uuid": "a6729dd0-9c6b-44a3-9d1c-e91f75289a96"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 42 [USIM_DET, Вход, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 0.9906
+                            },
+                            "uuid": "6ced17ee-e30a-47f1-ac66-2a54e9864172"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 42 [USIM_DET, Вход, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 0.9906
+                            },
+                            "uuid": "6ced17ee-e30a-47f1-ac66-2a54e9864172"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 4 [GPIO1, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.0414
+                            },
+                            "uuid": "786472d0-a36b-4105-8a02-96a71b09e335"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 5 [GPIO2, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.0668
+                            },
+                            "uuid": "a8c8233a-112d-43af-bb17-055ba65f362c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 6 [GPIO3, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.0922
+                            },
+                            "uuid": "5073036c-36fb-4659-9988-517f8c027b84"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 7 [GPIO4, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.1176
+                            },
+                            "uuid": "0416bc39-995d-4554-bbf7-7018ec3374c9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 18 [GPIO5, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.143
+                            },
+                            "uuid": "379095b6-8f95-495a-8089-ea37d16ffd70"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 19 [GPIO6, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.1684
+                            },
+                            "uuid": "44832055-91c5-4b60-bd02-a8df19ba8d87"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 22 [GPIO7, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.1938
+                            },
+                            "uuid": "08b8ff8b-d5a1-4e9f-82da-4ff38357f053"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 23 [GPIO8, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.2192
+                            },
+                            "uuid": "c382d39c-9976-4dbc-891e-405781a287de"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 25 [GPIO9, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.27
+                            },
+                            "uuid": "19e89485-8e08-411c-837d-5fade65dd058"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 26 [GPIO10, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.2954
+                            },
+                            "uuid": "d0e6126d-1e95-4d08-8e4b-f65fa2ccde98"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 27 [GPIO11, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.3208
+                            },
+                            "uuid": "311f55ea-0fa6-42f0-95ac-07af65677eea"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 28 [GPIO12, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.3462
+                            },
+                            "uuid": "815aa110-4cad-4860-bec2-2bac48de2660"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 40 [GPIO13, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.3716
+                            },
+                            "uuid": "4690030e-18a8-49d8-9297-83a1af0ad8a0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 41 [GPIO14, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.397
+                            },
+                            "uuid": "6b91753a-d55e-4525-b723-5157140ad7d7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 64 [GPIO15, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.4224
+                            },
+                            "uuid": "f257c0c1-642c-48c2-9cb6-b5af515dc3fa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 65 [GPIO16, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.4478
+                            },
+                            "uuid": "cc6bf3c9-14f9-429a-b232-320d9da6da59"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 66 [GPIO17, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.4986
+                            },
+                            "uuid": "bab2a705-05e3-4dcb-a0de-c67d5d1976f2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 85 [GPIO18, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.524
+                            },
+                            "uuid": "c5ad77d8-d795-4cc8-8128-e6728933108e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 86 [GPIO19, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.5494
+                            },
+                            "uuid": "7ef6ad39-6a17-46cc-b9e1-d474b30c8b2b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 87 [GPIO20, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.5748
+                            },
+                            "uuid": "46b6d35d-002a-40b1-8947-6999fae62d6d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Вывод 88 [GPIO21, Двунаправленный, Линия]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.6002
+                            },
+                            "uuid": "c2ee4c6a-d0d3-4d21-90de-39631f6db67f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'BLE_RF_REVIEW'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 1.2192
+                            },
+                            "uuid": "73e465a1-1c37-43a6-a65e-c4c02dde3dfc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'UART_OE_TBD'",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 1.6002
+                            },
+                            "uuid": "f30c2987-ff42-4f0e-9c49-6983b14dce03"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'GNSS_BACKUP_TBD'",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.381
+                            },
+                            "uuid": "0257e4af-9987-4b37-8f5b-52b4c1faa1ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'GNSS_RF_REVIEW'",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 0.6096
+                            },
+                            "uuid": "22837cf7-c4d9-4b8c-8650-ccd8581f1750"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'LTE_RF_REVIEW'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 0.6604
+                            },
+                            "uuid": "5e3718f5-49eb-436a-a40a-53641f5f2879"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'SIM_VDD'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 0.889
+                            },
+                            "uuid": "8f1499e8-73d5-4aaa-a330-0504c86e9b62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'SIM_DATA'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 0.9144
+                            },
+                            "uuid": "b6a97c57-8322-47c6-8930-f3f3931628ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'SIM_CLK'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 0.9398
+                            },
+                            "uuid": "e74f3eb0-b743-4e1c-ac85-fc7ffb7ebd2f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Метка 'SIM_RST'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 0.9652
+                            },
+                            "uuid": "7e1a0224-adcb-442a-8ddf-6f5f84110c12"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "Tracker-RevB.kicad_sch"
+}
